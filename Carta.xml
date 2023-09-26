@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE carta [
+
+    <!ELEMENT carta (plato)+>
+    <!ELEMENT plato (NombrePlato, descripcion, alergenos*, ingredientes+, Vegano)>
+    <!ELEMENT NombrePlato (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT alergenos (#PCDATA)*>
+    <!ELEMENT ingredientes (nombre, cantidad, UnidadDeMedida)*>
+    <!ELEMENT nombre (#PCDATA)*>
+    <!ELEMENT cantidad (#PCDATA)*>
+    <!ELEMENT UnidadDeMedida (#PCDATA)*>
+    <!ELEMENT Vegano (#PCDATA)>
+]>
+
+<carta>
+    <plato>
+        <NombrePlato>Lasania</NombrePlato>
+        <descripcion>Plato de carne muy rico</descripcion>
+        <alergenos>lacteos</alergenos>
+        <ingredientes>
+            <nombre>carne picada</nombre>
+            <cantidad>400g</cantidad>
+            <UnidadDeMedida>Gramos</UnidadDeMedida>
+        </ingredientes>
+        <Vegano>No</Vegano>
+
+    </plato>
+</carta>

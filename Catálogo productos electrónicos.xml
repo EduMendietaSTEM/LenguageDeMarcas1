@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Catalogo>
+<Productos>
+        <nombre>Impresora</nombre>
+        <descripcion>Impresora a color o blanco y negro</descripcion>
+        <precio>40$</precio>
+        <caracteristicas tipo="calidad">- más de 200 folios la hora y silenciosa</caracteristicas>
+                                        <caracteristicas>- Conexión bluetooth</caracteristicas>
+
+        <nombre>Monitor</nombre>
+        <descripcion>Monitor curvo</descripcion>
+        <precio>74$</precio>
+        <caracteristicas>4K</caracteristicas>
+        <caracteristicas>25 pulgadas</caracteristicas>
+
+</Productos>
+</Catalogo>
