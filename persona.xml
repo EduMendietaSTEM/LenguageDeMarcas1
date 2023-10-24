@@ -4,7 +4,7 @@
 <nombre>Edu</nombre>
 <edad>21</edad>
 <direcion>
- <calle>Camino de la Zubia </calle>      
+<calle>Camino de la Zubia </calle>      
 <cp>18006</cp> 
 <poblacion tipo="ciudad">Granada</poblacion>
 </direcion>
@@ -13,7 +13,7 @@
 <nombre>Adela</nombre>
 <edad>23</edad>
 <direcion>
- <calle>Av. Andalucia </calle>      
+<calle>Av. Andalucia </calle>      
 <cp>18006</cp> 
 <poblacion>Granada</poblacion>
 </direcion>
@@ -22,9 +22,9 @@
 <nombre>Antonio</nombre>
 <edad>23</edad>
 <direcion>
- <calle>Camino de la Zubia </calle>      
+<calle>Camino de la Zubia </calle>      
 <cp>18006</cp> 
 <poblacion>Granada</poblacion>
 </direcion>
-  </persona>
-  </personas>
+</persona>
+</personas>

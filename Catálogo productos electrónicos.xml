@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Catalogo>
-<Productos>
-        <nombre>Impresora</nombre>
-        <descripcion>Impresora a color o blanco y negro</descripcion>
-        <precio>40$</precio>
-        <caracteristicas tipo="calidad">- más de 200 folios la hora y silenciosa</caracteristicas>
-                                        <caracteristicas>- Conexión bluetooth</caracteristicas>
 
-        <nombre>Monitor</nombre>
-        <descripcion>Monitor curvo</descripcion>
-        <precio>74$</precio>
-        <caracteristicas>4K</caracteristicas>
-        <caracteristicas>25 pulgadas</caracteristicas>
+<!DOCTYPE catalogo [
+        <!ELEMENT catalogo (producto)*>
 
-</Productos>
-</Catalogo>
+        <!ELEMENT producto (nombre, descripcion, precio)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
+        <!ELEMENT descripcion (#PCDATA)*>
+        <!ELEMENT caracteristicas (caracteristica)>
+        <!ELEMENT caracteristica (#PCDATA)>
+]>
+<catalogo>
+        <producto>
+                <nombre>Impresora</nombre>
+                <descripcion>Impresora a color o blanco y negro</descripcion>
+                <precio>40$</precio>
+                <!-- <caracteristicas tipo="calidad">- mas de 200 folios la hora y silenciosa</caracteristicas>
+                <caracteristicas>- Conexion bluetooth</caracteristicas> -->
+        </producto>
+        <producto>
+                <nombre>Monitor</nombre>
+                <descripcion>Imagen 4K y curvo</descripcion>
+                <precio>70$</precio>
+                <!-- <caracteristicas tipo="calidad">- mas de 200 folios la hora y silenciosa</caracteristicas>
+                <caracteristicas>- Conexion bluetooth</caracteristicas> -->
+        </producto>
+</catalogo>

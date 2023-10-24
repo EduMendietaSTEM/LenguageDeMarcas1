@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!DOCTYPE videojuegos [
+    <!ELEMENT videojuegos (videojuego+)>
+    <!ELEMENT videojuego (nombre, descripcion, fecha, desarrollador, distribuidor, generos )>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT fecha (dia,mes, anio)>
+    <!ELEMENT dia (#PCDATA)>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT anio (#PCDATA)>
+    <!ELEMENT desarrollador (#PCDATA)>
+    <!ELEMENT distribuidor (#PCDATA)>
+    <!ELEMENT generos (#PCDATA)>
+]>
+
+<videojuegos>
+    <videojuego>
+    <nombre>Pokemon Escarlata</nombre>
+    <descripcion>Captura y logra vencer la liga pokemon</descripcion>
+    <fecha>
+        <dia>17</dia>
+        <mes>09</mes>
+        <anio>2023</anio>
+    </fecha>
+    <desarrollador>Nintendo</desarrollador>
+    <distribuidor>Nintendo</distribuidor>
+    <generos>Capturas</generos>
+</videojuego>
+    </videojuegos>

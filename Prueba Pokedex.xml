@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE pokedex [
+    <!ELEMENT pokedex (pokemon+)>
+    <!ELEMENT pokemon (name, types, abilities, baseStats, experience, legendary?)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT types (type+)>
+    <!ELEMENT type (#PCDATA)>
+    <!ELEMENT abilities (ability+)>
+    <!ELEMENT ability (#PCDATA)>
+    <!ELEMENT baseStats (HP, ATK, DEF)>
+    <!ELEMENT HP (#PCDATA)>
+    <!ELEMENT ATK (#PCDATA)>
+    <!ELEMENT DEF (#PCDATA)>
+    <!ELEMENT experience (#PCDATA)>
+    <!ELEMENT legendary EMPTY>
+]>
+
+<!-- completa este documento XML de forma que se cumplan las restricciones superiores (DTD) -->
+<!-- Inserta al menos dos pokemons -->
+
+<pokedex>
+    <pokemon>
+        <name>Garchomp</name>
+        <types>
+        <type>Dragón-Tierra</type>
+        </types>
+        <abilities>
+        <ability>Velo arena, piel tosca</ability>
+        </abilities>
+        <baseStats>
+        <HP>200</HP>
+        <ATK>140</ATK>
+        <DEF>85</DEF>
+        </baseStats>
+        <experience>Alto</experience>
+
+        <legendary></legendary>
+
+
+    </pokemon>
+
+
+
+
+
+
+
+
+
+
+
+</pokedex>

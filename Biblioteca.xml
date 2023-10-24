@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!DOCTYPE biblioteca [
-        <!ELEMENT biblioteca (libro)+>
-        <!ELEMENT libro (nombre, autor, fechaDePublicacion)>
-        <!ELEMENT nombre (#PCDATA)>
-        <!ELEMENT autor (#PCDATA)>
-        <!ELEMENT fechaDePublicacion (dia, mes, anio)*>
-        <!ELEMENT dia (#PCDATA)*>
-        <!ELEMENT mes (#PCDATA)*>
-        <!ELEMENT anio (#PCDATA)*>
+    <!ELEMENT biblioteca (libro)+>
+    <!ELEMENT libro (nombre, autor, fechaDePublicacion)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT fechaDePublicacion (dia, mes, anio)*>
+    <!ELEMENT dia (#PCDATA)*>
+    <!ELEMENT mes (#PCDATA)*>
+    <!ELEMENT anio (#PCDATA)*>
 ]>
 <biblioteca>
-            <libro>
-                <nombre>Spider-Man</nombre>
-                <autor>Garcilaso de la Vega</autor>
+    <libro>
+        <nombre>Spider-Man</nombre>
+        <autor>Garcilaso de la Vega</autor>
         <fechaDePublicacion>
-                <dia>25</dia>
-                <mes>Septiembre</mes>
-                <anio>2023</anio>
+            <dia>25</dia>
+            <mes>Septiembre</mes>
+            <anio>2023</anio>
         </fechaDePublicacion>
-            
-            </libro>
+
+    </libro>
 
 </biblioteca>
