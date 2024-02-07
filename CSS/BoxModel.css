@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+div{
+    height: 200px;
+    background-color: aqua;
+    border:  purple 3px solid;
+}
+#caja{
+    border: red 2px solid;
+    padding: 0px ;
+    margin: 25px;
+
+}
+#lorem{
+    border:  red 2px solid;
+    width: 300px;
+    margin: auto; 
+}
+
+h1{
+    border: rgb(255, 0, 247) 2px solid;
+    padding: 0px ;
+    margin: 50px;
+
+}
